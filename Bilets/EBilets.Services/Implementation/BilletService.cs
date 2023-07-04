@@ -16,12 +16,15 @@ namespace EBilets.Services.Implementation
         private readonly IRepository<Billet> _productRepository;
         private readonly IRepository<BilletInShoppingCart> _productInShoppingCartRepository;
         private readonly IUserRepository _userRepository;
+        private readonly IRepository<BilletInOrders> _ordersRepository;
 
-        public BilletService(IRepository<Billet> productRepository, IRepository<BilletInShoppingCart> productInShoppingCartRepository, IUserRepository userRepository)
+        public BilletService(IRepository<Billet> productRepository, IRepository<BilletInShoppingCart> productInShoppingCartRepository, 
+            IUserRepository userRepository, IRepository<BilletInOrders> ordersRepository)
         {
             _productRepository = productRepository;
             _userRepository = userRepository;
             _productInShoppingCartRepository = productInShoppingCartRepository;
+            _ordersRepository = ordersRepository;
         }
 
 
@@ -123,8 +126,15 @@ namespace EBilets.Services.Implementation
 
         public byte[] ExportBilletsByGenreToExcel(string selectedGenre)
         {
+            List<Billet> billets1 = new List<Billet>();
+            foreach(var o in _ordersRepository.GetAll())
+            {
+                Billet billet = _productRepository.Get(o.BilletId);
+                billets1.Add(billet);
+            }
+
             var billets = GetAllBillets()
-                .Where(b => b.Genre == selectedGenre)
+                .Where(b => b.Genre == selectedGenre && billets1.Contains(b))
                 .ToArray();
 
             using (var workBook = new XLWorkbook())

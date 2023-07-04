@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\bin\Debug\netcoreapp3.1\EBilets.Services.deps.json
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\bin\Debug\netcoreapp3.1\EBilets.Services.dll
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\bin\Debug\netcoreapp3.1\EBilets.Services.pdb
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\obj\Debug\netcoreapp3.1\EBilets.Services.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\obj\Debug\netcoreapp3.1\EBilets.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\obj\Debug\netcoreapp3.1\EBilets.Services.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\obj\Debug\netcoreapp3.1\EBilets.Services.AssemblyInfo.cs
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\obj\Debug\netcoreapp3.1\EBilets.Services.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\obj\Debug\netcoreapp3.1\EBilets.Services.dll
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\obj\Debug\netcoreapp3.1\EBilets.Services.pdb
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\bin\Debug\netcoreapp3.1\EBilets.Domain.dll
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\bin\Debug\netcoreapp3.1\EBilets.Repository.dll
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\bin\Debug\netcoreapp3.1\EBilets.Domain.pdb
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\bin\Debug\netcoreapp3.1\EBilets.Repository.pdb
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Services\obj\Debug\netcoreapp3.1\EBilets.Services.csproj.CopyComplete

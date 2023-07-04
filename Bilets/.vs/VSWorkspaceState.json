@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\EBilets.Web",
+    "\\EBilets.Web\\Models",
+    "\\EBilets.Web\\Models\\DTO",
+    "\\EBilets.Web\\Models\\Identity",
+    "\\EBilets.Web\\Models\\Relations",
+    "\\EBilets.Web\\Views"
+  ],
+  "PreviewInSolutionExplorer": false
+}

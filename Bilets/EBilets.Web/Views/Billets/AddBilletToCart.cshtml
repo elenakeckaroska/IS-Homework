@@ -1,0 +1,29 @@
+﻿@model EBilets.Domain.DTO.AddToShoppingCartDto
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3 class="text-center">Add selected ticket to your shopping cart!</h3>
+
+<div class="row mt-4">
+    <div class="col-md-4 m-auto">
+        <form method="post" asp-action="AddBilletToCart">
+            <input type="hidden" asp-for="SelectedBilletId" />
+            <div class="form-group">
+                <label asp-for="SelectedBillet.BilletName"></label>
+                <input disabled asp-for="SelectedBillet.BilletName" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="SelectedQuantity"></label>
+                <input type="number" asp-for="SelectedQuantity" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>

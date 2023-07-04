@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Domain\bin\Debug\netcoreapp3.1\EBilets.Domain.deps.json
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Domain\bin\Debug\netcoreapp3.1\EBilets.Domain.dll
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Domain\bin\Debug\netcoreapp3.1\EBilets.Domain.pdb
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Domain\obj\Debug\netcoreapp3.1\EBilets.Domain.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Domain\obj\Debug\netcoreapp3.1\EBilets.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Domain\obj\Debug\netcoreapp3.1\EBilets.Domain.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Domain\obj\Debug\netcoreapp3.1\EBilets.Domain.AssemblyInfo.cs
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Domain\obj\Debug\netcoreapp3.1\EBilets.Domain.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Domain\obj\Debug\netcoreapp3.1\EBilets.Domain.dll
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Domain\obj\Debug\netcoreapp3.1\EBilets.Domain.pdb

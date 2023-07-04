@@ -1,0 +1,22 @@
+﻿@model EBilets.Domain.Identity.AddToRoleModel
+
+@{
+    ViewData["Title"] = "AddToRoleModel";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <h1 class="text-center">Add User To Role</h1>
+    <form asp-action="AddUserToRole" asp-controller="Account" method="post">
+        <div class="form-group" style="margin:auto; width:450px;">
+            @Html.Label("Email")
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-contrlol" })
+        </div>
+        <div class="form-group" style=" width: 250px; margin: auto; padding-top: 25px;">
+            @Html.Label("Select Role:")
+            @Html.DropDownListFor(m => m.SelectedRole, new SelectList(Model.Roles), new { @class = "form-contrlol" })
+        </div>
+        <button type="submit" class="btn btn-outline-dark" style=" margin-left: 550px; margin-top: 50px;">Change</button>
+
+    </form>
+</div>

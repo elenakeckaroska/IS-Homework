@@ -27,7 +27,6 @@ namespace EBilets.Web.Controllers
 
         public IActionResult Index()
         {
-            //dava najaven korisnik
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
             return View(this._shoppingCartService.getShoppingCartInfo(userId));
@@ -56,7 +55,18 @@ namespace EBilets.Web.Controllers
 
             var result = this._shoppingCartService.order(userId);
 
-            return RedirectToAction("Index", "Order");
+            return RedirectToAction("Checkout");
+        }
+
+        public IActionResult Checkout()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Payment()
+        {
+            return RedirectToAction("Index","Order");
         }
 
     }

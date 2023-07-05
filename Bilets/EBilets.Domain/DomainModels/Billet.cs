@@ -9,7 +9,7 @@ namespace EBilets.Domain.DomainModels
     {
        
         [Required]
-        [Display(Name ="Movie Name")]
+        [Display(Name ="Movie Title")]
         public string BilletName { get; set; }
         [Required]
         [Display(Name = "Poster")]

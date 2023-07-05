@@ -48,13 +48,13 @@
         @if(Model.TotalPrice > 0)
         {
             <div class="row m-auto">
-                <a asp-controller="ShoppingCart" asp-action="OrderNow" class="btn btn-success">Buy now</a>
+                <a asp-controller="ShoppingCart" asp-action="OrderNow" class="btn btn-success">Pay now</a>
             </div>
         }
         else
         {
             <div class="row m-auto">
-                <a asp-controller="ShoppingCart" asp-action="OrderNow" class="btn btn-success disabled">Buy now</a>
+                <a asp-controller="ShoppingCart" asp-action="OrderNow" class="btn btn-success disabled">Pay now</a>
             </div>
         }
 

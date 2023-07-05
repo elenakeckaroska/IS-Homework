@@ -7,6 +7,7 @@ using EBilets.Domain.Identity;
 using EBilets.Services.Implementation;
 using EBilets.Services.Interface;
 using ExcelDataReader;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -40,10 +41,9 @@ namespace EBilets.Web.Controllers
             this._billetService = billetService;
             this._userService = userService;
         }
-        
 
-        
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public async Task<IActionResult> ReadingFromFileUsers(IFormFile file)
         {

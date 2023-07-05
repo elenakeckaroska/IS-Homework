@@ -395,3 +395,4 @@ C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Web\bin
 C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Cng.dll
 C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Web\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
 C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Web\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Cng.dll
+C:\Users\User\Desktop\IS-Domasna-master\IS-Domasna-master\Bilets\EBilets.Web\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCart\Checkout.cshtml.g.cs

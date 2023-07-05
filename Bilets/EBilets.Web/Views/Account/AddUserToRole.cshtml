@@ -7,7 +7,7 @@
 
 <div class="container">
     <h1 class="text-center">Add User To Role</h1>
-    <form asp-action="AddUserToRole" asp-controller="Account" method="post">
+    <form asp-action="AddUserToRole" asp-controller="Account" method="post" class="text-center mt-5">
         <div class="form-group" style="margin:auto; width:450px;">
             @Html.Label("Email")
             @Html.TextBoxFor(m => m.Email, new { @class = "form-contrlol" })
@@ -16,7 +16,7 @@
             @Html.Label("Select Role:")
             @Html.DropDownListFor(m => m.SelectedRole, new SelectList(Model.Roles), new { @class = "form-contrlol" })
         </div>
-        <button type="submit" class="btn btn-outline-dark" style=" margin-left: 550px; margin-top: 50px;">Change</button>
+        <button type="submit" class="btn btn-outline-dark" style="margin-top: 50px;">Change</button>
 
     </form>
 </div>

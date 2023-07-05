@@ -136,7 +136,7 @@ namespace EBilets.Services.Implementation
                 {
                     var currentItem = result[i - 1];
                     totalPrice += currentItem.Quantity * currentItem.Billet.BilletPrice;
-                    sb.AppendLine(i.ToString() + ". " + currentItem.Billet.BilletName + " with quantity of: " + currentItem.Quantity + " and price of: $" + currentItem.Billet.BilletPrice);
+                    sb.AppendLine(i.ToString() + ". Ticket/s for " + currentItem.Billet.BilletName + "movie for: " + currentItem.Quantity + "people with price of: $" + currentItem.Billet.BilletPrice);
                 }
 
                 sb.AppendLine("Total price for your order: " + totalPrice.ToString());
@@ -169,13 +169,12 @@ namespace EBilets.Services.Implementation
 
 
                 return true;
-            }
-
-
-            
+            }          
 
 
             return false;
         }
+
+
     }
 }

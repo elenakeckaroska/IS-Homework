@@ -152,6 +152,10 @@ namespace EBilets.Services.Implementation
                     
                     var billet = this._productRepository.Get(item.Billet.Id);
                     billet.Quantity = billet.Quantity - item.Quantity;
+                    if(billet.Quantity < 0)
+                    {
+                        billet.Quantity = 0;
+                    }
                     this._productRepository.Update(billet);
 
                 }

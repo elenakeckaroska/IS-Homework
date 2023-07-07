@@ -125,18 +125,32 @@ else
                     }
                     else if(item.Quantity <= 0)
                     {
+                        <div class="d-block">
+                            <a asp-action="AddBilletToCart" class="btn btn-danger mr-4 disabled" asp-route-id="@item.Id">Sold Out</a>
 
-                        <a asp-action="AddBilletToCart" class="btn btn-danger mr-4 disabled" asp-route-id="@item.Id">Sold Out</a>
+                            </div>
 
                     }
                     else
                     {
                         <a asp-action="AddBilletToCart" class="btn btn-outline-primary mr-4 disabled" asp-route-id="@item.Id">Add to cart</a>
+                        <span class="text-muted ms-2"> Log In to add to cart </span>
+ 
+                    }
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> <span class="text-muted">|</span>
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> <span class="text-muted">|</span>
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    }
+                    else
+                    {
+
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> 
 
                     }
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> <span class="text-muted">|</span>
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> <span class="text-muted">|</span>
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+
+
                 </div>
             </div>
         }
